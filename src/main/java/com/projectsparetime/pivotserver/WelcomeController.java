@@ -9,4 +9,9 @@ public class WelcomeController {
     public String welcome() {
         return "welcome to pivot server";
     }
+
+    @GetMapping("/hello")
+    public String hello() {
+        return "hello endpoint is working";
+    }
 }
