@@ -36,5 +36,5 @@ To run the server, just type `mvn spring-boot:run`.
 
 The `Project-SpareTime/pivot-server` repository is hooked to Heroku service with auto deploys enabled.
 
-So on every successful commit merge, the changes get deployed via the Heroku CI/CD to the [site](https://pst-pivot-server.herokuapp.com/). 
+So on every successful commit merge, the changes get deployed via the Heroku CI/CD. 
 
